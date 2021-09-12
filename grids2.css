@@ -78,7 +78,7 @@ div:nth-of-type(odd) {
 
 a:visited { 
     text-decoration: none; 
-    color: black;
+ 
     font-family: 'Roboto', sans-serif;
 }
 
