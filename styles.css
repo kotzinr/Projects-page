@@ -1,0 +1,73 @@
+#home-button {
+    background-color: cadetblue;
+    color: whitesmoke;
+    border-color: cadetblue;
+  }
+
+  #home-button:hover {
+    background-color: aquamarine;
+    color: black;
+    border-color: aquamarine;
+  }
+
+  #biopic {
+    padding-right: 10px;
+    float: left;
+
+}
+
+#bus-button {
+    background-color:mediumaquamarine;
+    text-align: center;
+    margin-left: 140px;
+    border-color: mediumaquamarine;
+}
+
+#bus-button:hover {
+    background-color: greenyellow;
+    color: black;
+    border-color:greenyellow;
+}
+
+#eye-button {
+    background-color: mediumaquamarine;
+    text-align: center;
+    margin-left: 130px;
+    border-color: mediumaquamarine;
+}
+
+#eye-button:hover {
+    background-color: greenyellow;
+    color: black;
+    border-color:greenyellow;
+}
+
+#pacmen-button {
+    background-color: mediumaquamarine;
+    text-align: center;
+    margin-left: 140px;
+    border-color: mediumaquamarine;
+}
+
+#pacmen-button:hover {
+    background-color: greenyellow;
+    color: black;
+    border-color:greenyellow;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    
+    }
+  }
+
+ 
