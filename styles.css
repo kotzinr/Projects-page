@@ -113,3 +113,15 @@ a:hover {
   text-decoration-color: mediumturquoise; 
 }
 
+.bottomcolor {
+  background-color: mintcream;
+  color: black;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title-color {
+  background-color: mintcream;
+}
+
