@@ -1,3 +1,18 @@
+    .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem; 
+    
+    }
+  }
+
 #home-button {
     background-color: cadetblue;
     color: whitesmoke;
@@ -17,10 +32,13 @@
 }
 
 #bus-button {
-    background-color:mediumaquamarine;
+    background-color: mediumaquamarine;
     text-align: center;
-    margin-left: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px; 
     border-color: mediumaquamarine;
+      
 }
 
 #bus-button:hover {
@@ -32,7 +50,9 @@
 #eye-button {
     background-color: mediumaquamarine;
     text-align: center;
-    margin-left: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px; 
     border-color: mediumaquamarine;
 }
 
@@ -45,8 +65,11 @@
 #pacmen-button {
     background-color: mediumaquamarine;
     text-align: center;
-    margin-left: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px; 
     border-color: mediumaquamarine;
+    
 }
 
 #pacmen-button:hover {
@@ -55,19 +78,16 @@
     border-color:greenyellow;
 }
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+#pacmenpic {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    
-    }
-  }
+.title{
+    position: relative;
+    text-align: center;
+}
+
+
 
  
