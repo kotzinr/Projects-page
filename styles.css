@@ -32,50 +32,51 @@
 }
 
 #bus-button {
-    background-color: mediumaquamarine;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px; 
-    border-color: mediumaquamarine;
+  background-color: mediumaquamarine;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: white;
+  border-width: 5px;
       
 }
 
 #bus-button:hover {
     background-color: greenyellow;
     color: black;
-    border-color:greenyellow;
+    border-color:white;
 }
 
 #eye-button {
-    background-color: mediumaquamarine;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px; 
-    border-color: mediumaquamarine;
+  background-color: mediumaquamarine;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: white;
+  border-width: 5px;
 }
 
 #eye-button:hover {
     background-color: greenyellow;
     color: black;
-    border-color:greenyellow;
+    border-color:white;
 }
 
 #pacmen-button {
-    background-color: mediumaquamarine;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px; 
-    border-color: mediumaquamarine;
+  background-color: mediumaquamarine;
+  text-align: center;
+  margin-left: left;
+  margin-right: auto;
+  border-color: white;
+  border-width: 5px;
+  float: center;
     
 }
 
 #pacmen-button:hover {
     background-color: greenyellow;
     color: black;
-    border-color:greenyellow;
+    border-color:white;
 }
 
 #pacmenpic {
@@ -88,6 +89,27 @@
     text-align: center;
 }
 
+#demo-button {
+  background-color: cadetblue;
+    text-align: center;
+    margin-left: left;
+    margin-right: auto;
+    border-color: white;
+    border-width: 5px;
+} 
 
+#demo-button:hover {
+  background-color:aquamarine;
+  color: black;
+  border-color:white;
+}
 
- 
+#contactbottom {
+  margin-top: 50px;
+}
+
+a:hover {
+  text-decoration-style: wavy; 
+  text-decoration-color: mediumturquoise; 
+}
+
