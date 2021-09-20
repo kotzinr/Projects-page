@@ -1,223 +1,249 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Cover Template · Bootstrap</title>
+    <link href="styles.css" rel="stylesheet">
+    <!-- Google fonts roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="" />
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
-  <meta name="generator" content="Hugo 0.88.1" />
-  <title>Album example · Bootstrap v5.1</title>
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/" />
 
-  <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
   <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
 
-</head>
+    <!-- Custom styles for this template -->
+    <!-- <link href="cover.css" rel="stylesheet"> -->
+  </head>
+  <body class="text-left">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
 
-<body>
-  <header>
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">
-              Roxy Kotzin is a dentist and (soon to be) full stack developer
-              living in Bend, OR. She is passionate about lifelong learning
-              and creating beauitful design. When she's not coding
-              you can find her reading sci-fi, rock climbing or planning her
-              family's next travel adventure.
-            </p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li>
-                <a href="mailto:rkotzin@gmail.com" class="text-white">Email me</a>
-              </li>
-              <li>
-                <a href="linkedin.com/in/roxy-k-03195421a” target=" _blank class="text-white">Connect on LinkedIn</a>
-              </li>
-              <li>
-                <a href="https://github.com/kotzinr" class="text-white">Connect on Github</a>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-
-          <img id="biopic" src="picwithpuppies.jpg" width="100px">
-          <strong>Roxy Kotzin</strong>
-
+      <!-- Cover nav bar with dropdown adjustment start -->
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="https://kotzinr.github.io/">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Project repos 
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
-          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="https://github.com/kotzinr/PacMen-Factory.git" target="_blank">Pacmen factory</a></li>
+            <li><a class="dropdown-item" href="https://github.com/kotzinr/Eye-movement-.git" target="_blank">Eye movement</a></li>
+            <li><a class="dropdown-item" href="https://github.com/kotzinr/Bus-tracker.git" target="_blank">Bus tracker</a></li>
+          </ul>
+        </li>
+      
+      </nav>
+      <!-- Cover standard nav bar end -->
     </div>
+  
   </header>
 
-  <main>
-    <section class="py-5 text-center container">
-      <div class="title-color" class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light">Project page</h1>
-          <p class="lead text-muted">
-            A sample of projects made during my time at MIT xPro full stack
-            software development boot camp. Click below to link to the Github
-            repository for each project.
-          </p>
-          <p>
-            <a id="home-button" href="https://kotzinr.github.io/" class="btn btn-primary my-2">Back to home</a>
-
-
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <div class="card shadow-sm">
-              <img id="pacmenpic" src="https://cdn.pixabay.com/photo/2013/07/12/15/20/pacman-149704_1280.png"
-                alt="Pac-Man image" width="350" height="175px" />
-              <br>
-              <h5 class="title">Pacmen factory</h5>
-
-
-
-              <div class="card-body">
-
-                <p class="card-text">
-                  Create Pacmen with the click of a button and watch as they
-                  move around the screen at their own pace using collision
-                  detection and random position and velocity.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    
-                    <a id="pacmen-button" href="https://github.com/kotzinr/PacMen-Factory"
-                      class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Pacmen repo</a>
-
-                      <a id="demo-button" href="https://kotzinr.github.io/PacMen-Factory/"
-                      class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a>
-                      
-                      
-
-                     
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-
-              <img src="oneeye.png" height="205px">
-
-
-
-              <h5 class="title">Eye movement</h5>
-
-
-
-              <div class="card-body">
-                <p class="card-text">
-                  Watch as a pair of eyes follows your mouse around the screen
-                  using a dynamic combination of JavaScript, HTML and CSS.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-
-                    <a id="eye-button" href="https://github.com/kotzinr/Eye-movement-.git"
-                      class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Eye movement
-                      repo</a>
-
-                      <a id="demo-button" href="https://kotzinr.github.io/Eye-movement-/"
-                      class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a> 
-
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="mitbusmap.jpg" height="205px">
-              <h5 class="title">Bus tracker</h5>
-
-
-              <div class="card-body">
-                <p class="card-text">
-                  A bus tracker that runs from the MIT to Harvard campus using
-                  bus stop data to determine the stops. An animated marker is
-                  added to the map to highlight the bus route.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a id="bus-button" href="https://github.com/kotzinr/Bus-tracker" class="btn btn-primary btn-sm"
-                      tabindex="-1" role="button" aria-disabled="true">Bus tracker repo</a>
-                      
-                      <a id="demo-button" href="https://kotzinr.github.io/Bus-tracker/"
-                      class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a>
-
-                  </div>
-                </div>
-              </div>
+  <main role="main" class="inner cover">
+    
+    <h1 class="cover-heading">Project page</h1>
+    <p id="projintro" class="lead">A sample of projects made during my time at MIT xPro full stack software development boot camp.</p>
+    <!-- <p class="lead"> -->
+      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
+      
+      <!-- CARD -->
+      <div class="row row-cols-6 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card h-100">
+            <img src="pacmen.png" class="card-img-top" alt="pacmen figures">
+            <div class="card-body">
+              <h5 class="card-title">Pacmen factory</h5>
+              <p class="card-text"> Create Pacmen with the click of a button and watch as they
+                move around the screen at their own pace using collision
+                detection and random position and velocity.</p>
+                <a id="pacmen-button" href="https://github.com/kotzinr/PacMen-Factory" target="_blank"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Pacmen repo</a>
+  
+                        <a id="demo-button" href="https://kotzinr.github.io/PacMen-Factory/" target="_blank"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a>
             </div>
           </div>
         </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="oneeye.png" class="card-img-top" alt="single eye">
+            <div class="card-body">
+              <h5 class="card-title">Eye movement</h5>
+              <p class="card-text">Watch as a pair of eyes follows your mouse around the screen using a dynamic combination of JavaScript, HTML and CSS.</p>
+              <a id="eye-button" href="https://github.com/kotzinr/Eye-movement-.git" target="_blank"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Moving eyes
+                        repo</a>
+  
+                        <a id="demo-button" href="https://kotzinr.github.io/Eye-movement-/" target="_blank"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="mitbusmap.jpg" class="card-img-top" alt="map">
+            <div class="card-body">
+              <h5 class="card-title">Bus tracker</h5>
+              <p class="card-text">A bus tracker that runs from the MIT to Harvard campus using
+                bus stop data to determine the stops. An animated marker is
+                added to the map to highlight the bus route.</p>
+                <a id="bus-button" href="https://github.com/kotzinr/Bus-tracker" target="_blank" class="btn btn-primary btn-sm"
+                tabindex="-1" role="button" aria-disabled="true">Bus tracker repo</a>
+                
+                <a id="demo-button" href="https://kotzinr.github.io/Bus-tracker/" target="_blank"
+                class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a>
+            </div>
+          </div>
+        </div>
+        
+      <!-- <section class="py-5 text-center container">
+        <div class="title-color" class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Project page</h1>
+            <p class="lead text-muted">
+              A sample of projects made during my time at MIT xPro full stack
+              software development boot camp. Click below to link to the Github
+              repository for each project.
+            </p>
+            <p>
+              <a id="home-button" href="https://kotzinr.github.io/" class="btn btn-primary my-2">Back to home</a>
+            </p>
+          </div>
+        </div>
+      </section> -->
+  
+      <!-- <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img id="pacmenpic" src="https://cdn.pixabay.com/photo/2013/07/12/15/20/pacman-149704_1280.png"
+                  alt="Pac-Man image" width="350" height="175px" />
+                <br>
+                <h5 class="title">Pacmen factory</h5>
+  
+  
+  
+                <div class="card-body">
+  
+                  <p class="card-text">
+                    Create Pacmen with the click of a button and watch as they
+                    move around the screen at their own pace using collision
+                    detection and random position and velocity.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      
+                      <a id="pacmen-button" href="https://github.com/kotzinr/PacMen-Factory"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Pacmen repo</a>
+  
+                        <a id="demo-button" href="https://kotzinr.github.io/PacMen-Factory/"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a>
+                        
+                        
+  
+                       
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+  
+                <img src="oneeye.png" height="205px">
+  
+  
+  
+                <h5 class="title">Eye movement</h5>
+  
+  
+  
+                <div class="card-body">
+                  <p class="card-text">
+                    Watch as a pair of eyes follows your mouse around the screen
+                    using a dynamic combination of JavaScript, HTML and CSS.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+  
+                      <a id="eye-button" href="https://github.com/kotzinr/Eye-movement-.git"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Eye movement
+                        repo</a>
+  
+                        <a id="demo-button" href="https://kotzinr.github.io/Eye-movement-/"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a> 
+  
+  
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="mitbusmap.jpg" height="205px">
+                <h5 class="title">Bus tracker</h5>
+  
+  
+                <div class="card-body">
+                  <p class="card-text">
+                    A bus tracker that runs from the MIT to Harvard campus using
+                    bus stop data to determine the stops. An animated marker is
+                    added to the map to highlight the bus route.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a id="bus-button" href="https://github.com/kotzinr/Bus-tracker" class="btn btn-primary btn-sm"
+                        tabindex="-1" role="button" aria-disabled="true">Bus tracker repo</a>
+                        
+                        <a id="demo-button" href="https://kotzinr.github.io/Bus-tracker/"
+                        class="btn btn-primary btn-sm" tabindex="-1" role="button" aria-disabled="true">Demo</a>
+  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+
+    </p> -->
   </main>
   
- <!-- Contact start -->
- <div class="bottomcolor" class="col-sm-4 offset-md-1 py-4">
-  <h4 class="bottomcolor" class="text-black">Contact</h4>
-  <ul class="list-unstyled">
-    <li>
-      <a class="bottomcolor" href="mailto:rkotzin@gmail.com" class="text-black">Email me</a>
-    </li>
-    <li>
-      <a class="bottomcolor" href="linkedin.com/in/roxy-k-03195421a” target=" _blank class="text-black">Connect on LinkedIn</a>
-    </li>
-    <li>
-      <a class="bottomcolor" href="https://github.com/kotzinr" class="text-black">Connect on Github</a>
-    </li>
 
-  </ul>
-</div>
+  <footer class="mastfoot">
+    <!-- <div class="inner"> -->
+      Contact: 
+      <a class="social-icon" href="mailto:rkotzin@gmail.com" alt="email"> <ion-icon name="mail-outline"></ion-icon></a>
 
-  
+      <a class="social-icon" href="https://github.com/kotzinr" target="_blank"> <ion-icon name="logo-github"></ion-icon></a>
+      
+      <a class="social-icon" href="#" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon></a>
 
-  <footer class="text-muted py-5">
-    <div class="container">
-      <p class="float-end mb-1">
-        <a href="#">Back to top</a>
-      </p>
-    </div>
+    
   </footer>
 
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-</body>
 
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<!-- ionicons -->
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
+
