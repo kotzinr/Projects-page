@@ -20,7 +20,34 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+div1 {
+  position: relative;
+  left: -150%;
+  top: -30%;
+  /* float: left; */
+  height: 400px;
+  width: 325px;
+  
+  
+}
+div2 {
+    position:relative;
+    left: -65%;
+    top: -30%;
+    /* float: center; */
+    height: 400px;
+    width: 325px;
+}
 
+div3 {
+    position: relative;
+    left: 20%;
+    top: -30%;
+   /* float: right;  */
+   height: 400px;
+  width: 325px;
+   
+} 
 /*
  * Base structure
  */
@@ -50,7 +77,7 @@ body {
   */
 
  
-  background: url('ULleaves.jpg') no-repeat center center fixed;  
+  background: url('middlevine.jpg') no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -66,7 +93,9 @@ body {
 .cover-heading {
   color: black;
   opacity: 0.4;
-  margin-top: -100%;
+  position: relative;
+  top: -25%;
+  /* margin-top: -100%; */
   text-shadow: rgba(255, 255, 255, .5);
 }
 /*
@@ -132,6 +161,8 @@ body {
 
 #projintro {
     background:rgba(255, 255, 255, .5);
+    position: relative;
+    top: -25%;
 }
 
 /*
@@ -232,7 +263,6 @@ ion-icon:hover {
   border-color: white;
   border-width: 5px;
   float: center;
-    
 }
 
 #pacmen-button:hover {
@@ -293,3 +323,4 @@ a:hover {
     margin-top: -90%;
     margin-bottom: -120%;
 }
+
