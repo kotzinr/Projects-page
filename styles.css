@@ -1,14 +1,9 @@
-/*
- * Globals
- */
-
 /* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
-
 
 /* Custom default button */
 .btn-secondary,
@@ -27,9 +22,8 @@ div1 {
   /* float: left; */
   height: 400px;
   width: 325px;
-  
-  
 }
+
 div2 {
     position:relative;
     left: -65%;
@@ -46,8 +40,8 @@ div3 {
    /* float: right;  */
    height: 400px;
   width: 325px;
-   
-} 
+}
+
 /*
  * Base structure
  */
@@ -67,27 +61,15 @@ body {
   padding-bottom: 10%;
   padding-right: 10%;
   font-family: 'Roboto', sans-serif;
-
-
-
-  /*
-      ----------------------------------
-              UPDATE IMAGE BELOW
-      ----------------------------------
-  */
-
- 
   background: url('middlevine.jpg') no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-
 }
 
 .cover-container {
   max-width: 42em;
-  
 }
 
 .cover-heading {
@@ -98,13 +80,13 @@ body {
   /* margin-top: -100%; */
   text-shadow: rgba(255, 255, 255, .5);
 }
+
 /*
  * Header
  */
 .masthead {
   margin-bottom: 2rem;
 }
-
 
 .masthead-brand {
   margin-bottom: 0;
@@ -147,7 +129,6 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
@@ -172,12 +153,11 @@ body {
   color: rgba(255, 255, 255, .75);
   margin-left: -35%;
   margin-bottom: -40%;
-  /* margin-top: -30%; */
   padding-right: 15px;
   text-shadow: 1 3rem 3rem (0, 0, 0, .25);
   padding-top: 40px;
   padding-bottom: 40px;
-  }
+}
 
  
 ion-icon {
@@ -221,7 +201,6 @@ ion-icon:hover {
   #biopic {
     padding-right: 10px;
     float: left;
-
 }
 
 #bus-button {
@@ -231,7 +210,6 @@ ion-icon:hover {
   margin-right: auto;
   border-color: white;
   border-width: 5px;
-      
 }
 
 #bus-button:hover {
